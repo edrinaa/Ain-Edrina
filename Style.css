@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #f0fff4, #e0f7ff);
+    margin: 0;
+    padding-top: 80px; /* Adds space for the fixed header */
+    color: #2c3e50;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, #00b09b, #96c93d);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed; /* Fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it stays on top */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    margin: 0 20px;
+}
+
+ul li a {
+    color: white;
+    background-color: #3498db;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, transform 0.3s;
+    border-radius: 25px;
+}
+
+ul li a:hover {
+    background-color: #1abc9c;
+    transform: scale(1.05);
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin-top: 40px;
+}
+
+/* BMI Category Styles */
+ul.bmi-categories {
+    list-style-type: none;
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    background-color: #ffffff;
+    border: 2px solid #16a085;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+ul.bmi-categories li {
+    padding: 10px;
+    background-color: #ecf0f1;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+ul.bmi-categories li:hover {
+    background-color: #bdc3c7;
+    transform: translateY(-5px);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 50px;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
